@@ -1,0 +1,13 @@
+{
+  "name": "project-switcher",
+  "version": "0.1.0",
+  "description": "Gerenciador visual de contexto de projetos (Git, GitHub, Supabase, Firebase) — local-first.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.js --open",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  }
+}

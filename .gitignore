@@ -1,0 +1,54 @@
+# Dependências e builds
+node_modules/
+dist/
+coverage/
+*.tgz
+
+# Dados locais do Project Switcher (se PROJECT_SWITCHER_HOME apontar para cá)
+data/
+.project-switcher/
+config.json
+config.json.bak
+history.jsonl
+commands.jsonl
+*.jsonl
+project-switcher-export*.json
+
+# Segredos e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+id_ed25519*
+*service-account*.json
+*serviceAccount*.json
+*-firebase-adminsdk-*.json
+credentials*.json
+secrets*.json
+.npmrc
+.netrc
+
+# Estado local de CLIs (vínculo e cache por diretório)
+.supabase/
+supabase/.temp/
+.firebase/
+firebase-debug.log*
+firebase-debug.*.log*
+
+# Logs, temporários e sistema
+*.log
+npm-debug.log*
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/*
+!.vscode/extensions.json
+.idea/

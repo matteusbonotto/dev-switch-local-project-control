@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="ps-token" content="__PS_TOKEN__">
+  <title>Project Switcher</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="topbar">
+      <button class="icon-btn only-mobile" id="nav-toggle" aria-label="Abrir menu"></button>
+      <div class="brand"><span class="brand-mark" aria-hidden="true"></span>Project Switcher</div>
+      <button class="active-pill" id="active-pill" aria-live="polite"></button>
+      <nav class="top-actions" id="top-actions" aria-label="Navegação"></nav>
+    </header>
+    <aside class="sidebar" id="sidebar" aria-label="Projetos"></aside>
+    <main class="main" id="main" tabindex="-1"></main>
+    <section class="logs" id="logs" aria-label="Logs"></section>
+  </div>
+  <dialog id="modal" class="modal"></dialog>
+  <dialog id="detail" class="modal modal-detail"></dialog>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
